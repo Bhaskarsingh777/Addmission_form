@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Addmission Form</title>
+	<link rel="stylesheet" type="text/css" href="styles\admission.css">
+	
+</head>
+<body>
+	<div class="alpha">
+		<form action="">
+			<h1>Addmission Form</h1>
+			<hr>
+			<h2>Student Information</h2>
+			<p>Student Name: <input type="txt" name="fname" required placeholder="Student Name"> </p>
+			
+			<fieldset>
+				<legend>Gender</legend>
+				
+				<p>
+					Male: <input type="radio" name="male" id="Male">
+					Female: <input type="radio" name="female" id="Female">
+					Other:<input type="radio" name="other" id="other">
+				</p>
+			</fieldset>
+			<p>Father's Name : <input type="txt" name="fname" required placeholder="abcd"> </p>
+			<p>Mother Name :<input type="txt" name="fname" required placeholder="abcd"> </p>
+			<p>Phone No: <input type="number" name="phoneno" required placeholder="1234567890"> </p>
+			<p>Email : <input type="email" name="email" id="email" required placeholder="abcd@gmail.com"> </p>
+			<p> DOB : <input type="date" name="date" id="date"> </p>
+			
+			<p>
+				Address:
+				<textarea name="address" id="address" cols="130" rows="8" required placeholder="Enter Your Address" ></textarea>
+			</p>
+
+			<p>State :
+				<select name="radio" id="State" required>
+					<option value="" required>----Select----</option>
+					<option value="uttar pardesh">Uttar Pardesh</option>
+					<option value="uttarakhand">Uttarakhand</option>
+					<option value="madhya pardesh">Madhya Pardesh</option>
+					<option value="himachal pardesh">Himachal Pardesh</option>
+					<option value="west bengal">West Bengal</option>
+					<option value="haryana">Haryana</option>
+					<option value="assam">Assam</option>
+					<option value="jharkhand">Jharkhand</option>
+					<option value="tamil nadu">Tamil Nadu</option>
+				</select>
+
+				<p>Course :
+					<select name="radio" id="course" required>
+						<option value="" required>----Select----</option>
+						<option value="bca">BCA</option>
+						<option value="bmca">MCA</option>
+						<option value="bba">BBA</option>
+						<option value="mba">MBA</option>
+						<option value="btech">B Tech</option>
+						<option value="mtech">M Tech</option>
+						<option value="llb">LLB</option>
+						<option value="bajmc">BAJMC</option>
+					</select>
+				</p>
+				
+				<p>Student Image: </p>
+				
+				<form action="">
+					<input type="file" name="filename">
+					<input type="submit" value="upload">
+				</form>
+				
+				<p>Student Signature: </p>
+				<form action="">
+					<input type="file" name="filename">
+					<input type="submit" value="upload">
+				</form>
+				
+				<p>
+					<a target="_blank" href="admissionpayment.html"> <input type="submit" value="Next" class="v"></a> 
+					<a href="index.html"><input type="submit" value="BACK" class="u"> </a> 
+
+				</p>
+			</p>
+			
+		</form>
+		
+	</div>        	
+</body>
+</html>
